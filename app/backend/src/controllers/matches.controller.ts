@@ -43,6 +43,5 @@ class MatcheController {
     }
   }
 }
-//..
 
 export default MatcheController;
