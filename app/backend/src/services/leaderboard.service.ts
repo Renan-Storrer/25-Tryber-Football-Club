@@ -5,7 +5,7 @@ import {
   grResults,
   orderRank,
   grResultsGeneral,
-  rankGeneral
+  rankGeneral,
 } from '../utils/leaderboardFunctions';
 import IResponse from '../interfaces/IResponse';
 import Matche from '../database/models/MatcheModel';
