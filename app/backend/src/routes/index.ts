@@ -9,6 +9,6 @@ const router: IRouter = Router();
 router.use(teamRoutes);
 router.use(userRoutes);
 router.use(matcheRoutes);
-router.use(leaderboardRoutes)
+router.use(leaderboardRoutes);
 
 export default router;

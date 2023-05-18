@@ -1,6 +1,12 @@
 import { ModelStatic } from 'sequelize';
 import { grResponse } from '../utils/grResponse';
-import { rank, grResults, orderRank, grResultsGeneral, rankGeneral } from '../utils/leaderboardFunctions';
+import {
+  rank,
+  grResults,
+  orderRank,
+  grResultsGeneral,
+  rankGeneral
+} from '../utils/leaderboardFunctions';
 import IResponse from '../interfaces/IResponse';
 import Matche from '../database/models/MatcheModel';
 import Team from '../database/models/TeamModel';
